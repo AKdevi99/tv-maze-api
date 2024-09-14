@@ -1,0 +1,61 @@
+body {
+    transition: backgroundColor 2s;
+    height: 100%;
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(7,190,184,1) 0%, rgb(8, 225, 217) 19%, rgba(104,216,214,1) 38%, rgba(156,234,239,1) 65%, rgba(196,255,249,1) 100%);
+}
+
+.divbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #5751518d;
+    background: #ffffff; /* Add background color for better contrast */
+    border-radius: 8px; /* Rounded corners for the divbox */
+}
+
+.divbox img {
+    height: 50px;
+    width: 50px;
+}
+
+.divbox input {
+    flex: 1; 
+    margin-left: 10px; 
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#movieimagebox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    margin: 10px;
+    
+}
+
+.movie-item {
+    display: inline-block;
+    width: 200px; /* Adjust the width as needed */
+    text-align: center;
+    font-weight: bold; /* Center the text */
+    border: solid 2px #00000092;
+    border-radius: 20px;
+    padding: 10px; /* Add some padding inside the movie box */
+    background: #fff; /* White background for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.movie-item img {
+    margin-bottom: 10px;
+    max-width: 100%; /* Ensures image fits within its container */
+    height: auto;
+}
